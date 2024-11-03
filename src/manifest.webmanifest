@@ -1,0 +1,37 @@
+{
+  "name": "coffeelog",
+  "short_name": "coffeeLog",
+  "theme_color": "#1976d2",
+  "background_color": "#fafafa",
+  "display": "standalone",
+  "scope": "./",
+  "start_url": "./",
+  "shortcuts": [
+    {
+      "name": "New Coffee review",
+      "short_name": "Coffee review",
+      "description": "Create a new review for a coffee",
+      "url": "/coffee",
+      "icons": [
+        {
+          "src": "assets/icons/maskable_icon.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "icons": [
+    {
+      "src": "assets/icons/maskable_icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/maskable_icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ]
+}
